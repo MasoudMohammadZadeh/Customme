@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: "iransans";
+    src: url("./fonts/IRANSansWeb.woff2");
+    font-family: "iranyekan";
+    src: url("./fonts/IRANyekan.ttf");
+}
+
+@theme {
+    
+    --color-customred1: oklch(0.49 0.1555 19.6);
+    --font-iransans:"iransans";
+    --font-iranyekan:"iranyekan";
+    
+}
+

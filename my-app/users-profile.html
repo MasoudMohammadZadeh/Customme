@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customme Shop</title>
+  <link href="./src/style.css" rel="stylesheet" />
+</head>
+<!-- headr -->
+<section class="flex flex-col flex-wrap justify-center w-[1540px]  mx-auto">
+    <body class="bg-white font-iranyekan">
+      
+      <!-- بخش مشابه تصویر -->
+      <div class="bg-white pt-8">
+        <div class="container mx-auto flex items-center justify-between pl-30 ">
+          <!-- لوگو -->
+          <a href="./landing.html" class="hover:opacity-75">
+            <div class="flex items-center mx-20">
+              <img src="src/Pics/Frame 26088044.svg" alt="کاستومی" class="h-13" />
+            </div>
+              </a>
+    
+          <!-- نوار جستجو -->
+          <div class="flex-1 mx-13">
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="جستجو"
+                class="placeholder-customred1 w-[596px] h-[48px] border border-gray-300 rounded-xl py-2 px-4 text-sm  text-customred1  focus:outline-none focus:ring focus:ring-customred1"
+              />
+              <button class="absolute top-1/2 transform -translate-y-3 translate-9 text-gray-500">
+                <img src="./src/Pics/search-normal.svg" alt="دکمه سرچ">
+              </button>
+            </div>
+          </div>
+          
+          <!-- ورود، ثبت‌نام و سبد خرید -->
+          <div class="flex flex- col items-center space-x-4">
+            <a href="#" class="text-gray-600 flex items-center text-sm hover:text-customred1">
+              <img src="./src/Pics/Login.svg" alt="ورود و ثبت نام" class= "">
+              ورود / ثبت‌ نام
+            </a>
+            <a href="#" class="text-gray-600 flex items-center text-sm relative hover:text-customred1">
+              <p class="absolute w-3 h-3 bg-[#dcacb1] rounded-full flex items-center justify-center -top-0.5 -right-0.5">۰</p>
+            <img src="./src/Pics/shopping-cart.svg" alt="سبد خرید" class="">
+              <p class="mr-2">سبد خرید</p>
+          </div>
+          
+        </div>
+        <hr class="border-gray-300 mt-8 w-[1540px] " />  
+
+   
+        <!-- خط جداکننده -->
+    
+        <!-- منو -->
+        <nav class=" pt-[28px] border-none w-[1456px] ml-auto mr-auto ">
+          <ul class=" mx-auto flex items-center justify-between  text-sm text-gray-600  ">
+            <li class="pl-20 self-start">
+              <a href="#" class="bg-customred1 text-white text-sm px-[24px] py-[15px] rounded-lg hover:bg-red-700 flex items-center">
+                <img src="./src/Pics/magicpen.svg" alt="آیکون طراحی" class="ml-2 h-4 w-4">
+                خودت طراحیش کن!
+              </a>
+            </li>
+            <li class="px-4"><a href="#" class="hover:text-customred1">پوشاک</a></li>
+            <li class="px-4"><a href="#" class="hover:text-customred1">لوازم خانه</a></li>
+            <li class="px-4">
+              <a href="#" id="mobile-cases-link" class="hover:text-customred1">قاب موبایل</a>
+            </li>
+            <li class="px-4"><a href="#" class="hover:text-customred1">اکسسوری</a></li>
+            <li class="px-4"><a href="#" class="hover:text-customred1">مدرسه و اداره</a></li>
+            <li class="px-4"><a href="#" class="hover:text-customred1">کارت و پوستر</a></li>
+            <li class="px-4"><a href="#" class="hover:text-customred1">جشن و مهمانی</a></li>
+          </ul> 
+        </nav>
+        <!-- Hidden Mobile Cases Section -->
+  <div id="mobile-cases" class="absolute hidden  w-[1116px] h-[136] flex flex-row justify-around items-center py-4 bg-white z-10  rounded-lg border-gray-100 border-t-1 mr-110">
+    <div class="flex flex-col items-center rounded-lg border-transparent border-[1px] hover:border-red-100 duration-250 box-border">
+      <img src="./src/Pics/iphonered.svg" alt="آیفون ۱" class="rounded-lg w-[80px] h-[74px] m-2 ">
+      <p class="text-sm mt-2 text-[#434343]">آیفون</p>
+    </div>
+    <div class="flex flex-col items-center rounded-lg border-transparent border-[1px] hover:border-red-100 duration-250 box-border">
+      <img src="./src/Pics/iphonered.svg" alt="آیفون ۲" class="rounded-lg w-[80px] h-[74px] m-2">
+      <p class="text-sm mt-2 text-[#434343]">آیفون</p>
+    </div>
+    <div class="flex flex-col items-center rounded-lg border-transparent border-[1px] hover:border-red-100 duration-250 box-border">
+      <img src="./src/Pics/iphonered.svg" alt="آیفون ۳" class="rounded-lg w-[80px] h-[74px] m-2 ">
+      <p class="text-sm mt-2 text-[#434343]">آیفون</p>
+    </div>
+    <div class="flex flex-col items-center rounded-lg border-transparent border-[1px] hover:border-red-100 duration-250 box-border">
+      <img src="./src/Pics/iphonered.svg" alt="آیفون ۴" class="rounded-lg w-[80px] h-[74px] m-2">
+      <p class="text-sm mt-2 text-[#434343]">آیفون</p>
+    </div>
+    <div class="flex flex-col items-center rounded-lg border-transparent border-[1px] hover:border-red-100 duration-250 box-border">
+      <img src="./src/Pics/iphonered.svg" alt="آیفون ۵" class="rounded-lg w-[80px] h-[74px] m-2">
+      <p class="text-sm mt-2 text-[#434343]">آیفون</p>
+    </div>
+    <div class="flex flex-col items-center rounded-lg border-transparent border-[1px] hover:border-red-100 duration-250 box-border">
+      <img src="./src/Pics/iphonered.svg" alt="آیفون ۶" class="rounded-lg w-[80px] h-[74px] m-2">
+      <p class="text-sm mt-2 text-[#434343]">آیفون</p>
+    </div>
+    <div class="flex flex-col items-center rounded-lg border-transparent border-[1px] hover:border-red-100 duration-250 box-border">
+      <img src="./src/Pics/iphonered.svg" alt="آیفون ۷" class="rounded-lg w-[80px] h-[74px] m-2">
+      <p class="text-sm mt-2 text-[#434343]">آیفون</p>
+    </div>
+    <div class="flex flex-col items-center rounded-lg border-transparent border-[1px] hover:border-red-100 duration-250 box-border">
+      <img src="./src/Pics/iphonered.svg" alt="آیفون ۸" class="rounded-lg w-[80px] h-[74px] m-2">
+      <p class="text-sm mt-2 text-[#434343]">آیفون</p>
+    </div>
+    <div class="flex flex-col items-center rounded-lg border-transparent border-[1px] hover:border-red-100 duration-250 box-border">
+      <img src="./src/Pics/iphonered.svg" alt="آیفون ۹" class="rounded-lg w-[80px] h-[74px] m-2">
+      <p class="text-sm mt-2 text-[#434343]">آیفون</p>
+    </div>
+  </div>
+        
+      </div>  
+</section>
+<!-- main section  -->
+<section class="flex flex-col flex-wrap py-10 justify-between w-[1324px]  mx-auto">
+<p class="text-3xl font-bold">پروفایل</p>
+<div class="flex mt-6 gap-6">   
+  <!-- first col -->
+      <div class="flex border border-gray-300 rounded-xl p-4 w-[392px] h-[850px] justify-center ">
+          <div class="flex flex-col relative items-center w-full gap-2">
+              <img src="./src/Pics/Profile pic.svg" alt="" class="h-[144px] ">
+              <img src="./src/Pics/aks.svg" alt="" class="w-10 h-10 absolute left-28 top-28">
+              <p class="text-lg">نگار زمانی</p>
+              <p class="text-lg text-gray-400">xxxxxxx@Yahoo.com</p>
+              <hr class=" border-gray-300 w-full">
+              <div class="flex justify-baseline items-center mt-2 text-gray-700 text-[17px]">
+                      <p class="whitespace-nowrap">اعتبار خرید</p>
+                      <img src="./src/Pics/Lock 5.svg" alt="" class="pr-2">
+                      <p class="mr-38 whitespace-nowrap">۱۰۰,۰۰۰ تومان</p>
+              </div>
+              <div class="flex justify-baseline items-center mt-2 text-gray-700 text-[17px]">
+                      <p class="whitespace-nowrap pl-10">تعداد طرح ها</p>
+                      <p class="mr-50 whitespace-nowrap">۴۵</p>
+              </div>
+              <div class="flex justify-baseline items-center mt-2 text-gray-700 text-[17px]">
+                      <p class="whitespace-nowrap pl-10">تعداد سفارش ها </p>
+                      <p class="mr-45 whitespace-nowrap">۷۰</p>
+              </div>
+              
+              <div class="flex flex-col justify-start w-full font-light text-customred1 text-[17px] gap-2 mt-4">
+                <a href="./users-profile.html" class="">
+                  <div class="flex items-center">
+                  <img src="./src/Pics/home.svg" alt="" class="">
+                  <p class="flex mr-3 hover:text-customred1">داشبورد</p>
+                  </div>
+                  <hr class="">
+                </a>
+              </div>
+            
+               <div class="flex flex-col justify-start w-full font-light  text-gray-700 text-[17px] gap-2 mt-4 ">
+                  <a href="./orders-history.html">
+                  <div class="flex items-center">
+                  <img src="./src/Pics/Lock 3.svg" alt="" class="">
+                  <p class="flex mr-3  hover:text-customred1 ">تاریخچه سفارشات</p>
+                  </div>
+                </a>
+                  <hr class="text-gray-300">
+              </div> 
+              <div class="flex flex-col justify-start w-full font-light  text-gray-700 text-[17px] gap-2 mt-4  hover:text-customred1">
+                <a href="">
+                  <div class="flex items-center">
+                  <img src="./src/Pics/Lock 32.svg" alt="" class="">
+                  <p class="flex mr-3 "> گالری</p>
+                  </div>
+                </a>
+                  <hr class="text-gray-300">
+              </div>
+              <div class="flex flex-col justify-start w-full font-light  text-gray-700 text-[17px] gap-2 mt-4  hover:text-customred1">
+                <a href="">
+                  <div class="flex items-center">
+                  <img src="./src/Pics/location-minus.svg" alt="" class="">
+                  <p class="flex mr-3 "> آدرس ها</p>
+                  </div>
+                </a>
+                  <hr class="text-gray-300">
+              </div>
+              <div class="flex flex-col justify-start w-full font-light  text-gray-700 text-[17px] gap-2 mt-4  hover:text-customred1">
+                <a href="">
+                  <div class="flex items-center">
+                  <img src="./src/Pics/user-tick.svg" alt="" class="">
+                  <p class="flex mr-3 "> دنبال شوندگان</p>
+                  </div>
+                </a>
+                  <hr class="text-gray-300">
+              </div>
+              <div class="flex flex-col justify-start w-full font-light  text-gray-700 text-[17px] gap-2 mt-4  hover:text-customred1">
+                <a href="./account-info.html">
+                  <div class="flex items-center">
+                  <img src="./src/Pics/user.svg" alt="" class="">
+                  <p class="flex mr-3 "> اطلاعات حساب کاربری</p>
+                  </div>
+                </a>
+                  <hr class="text-gray-300">
+              </div>
+              <div class="flex flex-col justify-start w-full font-light text-gray-700 text-[17px] gap-2   hover:text-customred1">
+                <a href="" class="flex flex-row">
+                  <div class="flex items-center">
+                  <img src="./src/Pics/logout1.svg" alt="" class="">
+                  <p class="flex mr-3 ">خروج</p>
+                </a>  
+                  </div>
+              </div>
+          </div>
+      </div>
+
+<!-- second col -->
+    <div class="flex flex-col border border-gray-300 rounded-xl w-[808px] p-6 gap-6 overflow-x-hidden scroll-smooth">
+        <p class="font-bold text-2xl w-full">سفارشات من </p>
+
+        <div class="flex w-full">
+            <div class="flex flex-col text-gray-700 h-[96px] w-[254px] border-l justify-center items-center">
+                <div class="flex gap-2">
+                    <img src="./src/Pics/more-circle.svg" alt="">
+                    <p class="text-lg">۴۵ سفارش</p>
+                </div>
+                <p class=" font-light text-sm ml-5">جاری</p>
+                <div class="flex gap-2 mt-2 ">
+                    <img src="./src/Pics/messages-2.svg" alt="">
+                    <p class="text-lg ml-8">۵۴ نظر </p>
+                </div>
+                <p class=" font-light text-xs ">ثبت شده</p>
+            </div>
+
+
+            <div class="flex flex-col text-gray-700 h-[96px] w-[254px] border-l justify-center items-center">
+                <div class="flex gap-2">
+                    <img src="./src/Pics/tick-circle.svg" alt="">
+                    <p class="text-lg">۴۵ سفارش</p>
+                </div>
+                <p class=" font-light text-xs ml-3">ارسال شده</p>
+                <div class="flex gap-2 mt-2 ">
+                    <img src="./src/Pics/close-circle.svg" alt="">
+                    <p class="text-lg ">۲۱۵ سفارش  </p>
+                </div>
+                <p class=" font-light text-xs  ml-3"> لغو شده</p>
+            </div>
+
+
+            <div class="flex flex-col text-gray-700 h-[96px] w-[254px]  justify-center items-center">
+                <div class="flex gap-2">
+                    <img src="./src/Pics/gallery-favorite.svg" alt="">
+                    <p class="text-lg ml-2">۱۰ محصول </p>
+                </div>
+                <p class=" font-light text-xs ml-3">در گالری</p>
+                <div class="flex gap-2 mt-2  ">
+                    <img src="./src/Pics/bag-happy.svg " alt="">
+                    <p class="text-lg">۲۸ محصول   </p>
+                </div>
+                <p class=" font-light text-xs ml-3 "> فیزیکی</p>
+            </div>
+
+
+        </div>
+        <hr class="border-gray-300 w-full">
+        <div class="flex justify-between">
+            <p class="text-2xl font-bold">علاقه مندی های من</p>
+            <a href="" class="text-customred1">مشاهده بیشتر</a>
+        </div>
+        <div class="w-[808px]">
+        <div class="flex gap-4 w-[808px]">
+            <!-- Product Card 1 -->
+                <div id="card1" class=" w-[288px] h-[382px]   rounded-2xl border-[1px] border-gray-300 shrink-0">
+                    <div class="p-2 mt-2 flex justify-center items-center  mx-auto">
+                    <img src="./src/Pics/KIFZAN.png" alt="لایک" class=" w-[256px] h-[209px] object-cover rounded-2xl ">
+                    </div>
+                    <div class="flex justify-between items-end p-4">
+                    <h2 class="text-xl font-bold font-iranyekan">کیف زنانه</h2>
+                    <img src="./src/Pics/Like3.svg" alt="" class="">
+                    </div>
+                    <h4 class="font-iranyekan  pr-4">دارای رنگ بندی، قابل طراحی</h4>
+                    <div class="flex items-center justify-end p-4  mt-3">
+                    <h2 class="text-xl font-bold font-iranyekan">۱۵۰،۰۰۰</h2>
+                    <h2 class="text-xl font-bold font-iranyekan inline-block mr-2">تومان</h2>
+                    </div>
+                </div>
+         <!-- Product Card 2 -->
+                <div id="card2" class="w-[288px] h-[382px] rounded-2xl border-[1px] border-gray-300 shrink-0">
+                    <div class="p-2 mt-2 flex justify-center items-center  mx-auto"> 
+                    <img src="./src/Pics/friends.png" alt="لایک" class="object-cover rounded-2xl w-[256px] h-[209px]">
+                    </div>
+                    <div class="flex justify-between items-center p-4   ">
+                    <h2 class="text-xl font-bold font-iranyekan">استیکر فرندز </h2>
+                    <img src="./src/Pics/Like.svg" alt="لایک">
+                    </div>
+                    <h4 class="font-iranyekan text-sm pb-2   pr-4 ">قابل طراحی و چاپ بر روی انواع محصولات</h4>
+                    <div class="flex items-center justify-center ">
+                    <a href="#" class="border w-[256px] h-10 border-customred1 text-customred1 items-center pr-3 pt-1 rounded-lg hover:bg-red-100 transition-colors font-iranyekan">
+                        <img src="./src/Pics/gallery-add.svg" alt="آیکون" class="inline pr-7">
+                        افزودن به گالری</a>
+                    </div>
+                </div>
+        <!-- Product Card 3 -->
+                <div id="card3" class="w-[288px] h-[382px] relative rounded-2xl border-[1px] border-gray-300 shrink-0">
+                    <div class="p-2 mt-2 flex justify-center items-center  mx-auto">
+                    <img src="./src/Pics/JORABZAN.png" alt="لایک" class=" w-[256px] h-[209px] object-cover rounded-2xl ">
+                    </div>
+                    <div class="flex justify-between items-end p-4">
+                    <h2 class="text-xl font-bold font-iranyekan">تیشرت زنانه</h2>
+                    <img src="./src/Pics/Like3.svg" alt="" class="">
+                    </div>
+                    <h4 class="font-iranyekan  pr-4">دارای رنگ بندی، قابل طراحی</h4>
+                    <div class="flex items-center justify-end p-4  mt-3">
+                    <h2 class="text-xl font-bold font-iranyekan">۱۵۰،۰۰۰</h2>
+                    <h2 class="text-xl font-bold font-iranyekan inline-block mr-2">تومان</h2>
+                    </div>
+                    <a href="#card2" class="absolute rounded-full w-10 h-10 flex items-center justify-center bottom-40 right-30">
+                        <img src="./src/Pics/Carousel.svg" alt="→" class="w-10 h-10">
+                      </a>
+                </div> 
+            </div> 
+        </div>
+    <hr class="border-gray-300 w-full ">
+    <div class="flex justify-between ">
+        <p class="text-2xl font-bold">خرید های پرتکرار من </p>
+        <a href="" class="text-customred1">مشاهده بیشتر</a>
+    </div>
+    <div class="w-[808px]">
+        <div class="flex gap-4 w-[808px]">
+            <!-- Product Card 1 -->
+                <div id="card1" class=" w-[288px] h-[382px]   rounded-2xl border-[1px] border-gray-300 shrink-0">
+                    <div class="p-2 mt-2 flex justify-center items-center  mx-auto">
+                    <img src="./src/Pics/iphone2.jfif" alt="لایک" class=" w-[256px] h-[209px] object-cover rounded-2xl ">
+                    </div>
+                    <div class="flex justify-between items-end p-4">
+                    <h2 class="text-xl font-bold font-iranyekan"> قاب گوشی آیفون</h2>
+                    <img src="./src/Pics/Like.svg" alt="" class="">
+                    </div>
+                    <h4 class="font-iranyekan  pr-4">دارای رنگ بندی، قابل طراحی</h4>
+                    <div class="flex items-center justify-end p-4  mt-3">
+                    <h2 class="text-xl font-bold font-iranyekan">۱۵۰،۰۰۰</h2>
+                    <h2 class="text-xl font-bold font-iranyekan inline-block mr-2">تومان</h2>
+                    </div>
+                </div>
+       <!-- Product Card 2 -->
+                <div id="card1" class=" w-[288px] h-[382px]  rounded-2xl border-[1px] border-gray-300 shrink-0">
+                    <div class="p-2 mt-2 flex justify-center items-center  mx-auto">
+                    <img src="./src/Pics/kala.jfif" alt="لایک" class=" w-[256px] h-[209px] object-cover rounded-2xl ">
+                    </div>
+                    <div class="flex justify-between items-end p-4">
+                    <h2 class="text-xl font-bold font-iranyekan"> کلاه مردانه</h2>
+                    <img src="./src/Pics/Like.svg" alt="" class="">
+                    </div>
+                    <h4 class="font-iranyekan  pr-4">دارای رنگ بندی، قابل طراحی</h4>
+                    <div class="flex items-center justify-end p-4  mt-3">
+                    <h2 class="text-xl font-bold font-iranyekan">۱۵۰،۰۰۰</h2>
+                    <h2 class="text-xl font-bold font-iranyekan inline-block mr-2">تومان</h2>
+                    </div>
+                </div>
+        <!-- Product Card 3 -->
+                <div id="card3" class="w-[288px] h-[382px] relative rounded-2xl border-[1px] border-gray-300 shrink-0">
+                    <div class="p-2 mt-2 flex justify-center items-center  mx-auto">
+                    <img src="./src/Pics/lebaszan.png" alt="لایک" class=" w-[256px] h-[209px] object-cover rounded-2xl ">
+                    </div>
+                    <div class="flex justify-between items-end p-4">
+                    <h2 class="text-xl font-bold font-iranyekan">  تیشرت زنانه</h2>
+                    <img src="./src/Pics/Like.svg" alt="" class="">
+                    </div>
+                    <h4 class="font-iranyekan  pr-4">دارای رنگ بندی، قابل طراحی</h4>
+                    <div class="flex items-center justify-end p-4  mt-3">
+                    <h2 class="text-xl font-bold font-iranyekan">۱۵۰،۰۰۰</h2>
+                    <h2 class="text-xl font-bold font-iranyekan inline-block mr-2">تومان</h2>
+                    </div>
+                    <a href="#card2" class="absolute rounded-full w-10 h-10 flex items-center justify-center bottom-40 right-30">
+                        <img src="./src/Pics/Carousel.svg" alt="→" class="w-10 h-10">
+                      </a>
+                </div> 
+            </div> 
+        </div>
+        <hr class="border-gray-300 w-full ">
+    <div class="flex justify-between ">
+        <p class="text-2xl font-bold">گالری من</p>
+        <a href="" class="text-customred1">مشاهده بیشتر</a>
+    </div>
+    <div class="w-[808px]">
+        <div class="flex gap-4 w-[808px]">
+              <!-- Product Card 2 -->
+              <div id="card2" class="w-[288px] h-[382px] rounded-2xl border-[1px] border-gray-300 shrink-0">
+                <div class="p-2 mt-2 flex justify-center items-center  mx-auto"> 
+                <img src="./src/Pics/friends.png" alt="لایک" class="object-cover rounded-2xl w-[256px] h-[209px]">
+                </div>
+                <div class="flex justify-between items-center p-4   ">
+                <h2 class="text-xl font-bold font-iranyekan">استیکر فرندز </h2>
+                <img src="./src/Pics/Like.svg" alt="لایک">
+                </div>
+                <h4 class="font-iranyekan text-sm pb-2   pr-4 ">قابل طراحی و چاپ بر روی انواع محصولات</h4>
+                <div class="flex items-center justify-center ">
+                <a href="#" class="border w-[256px] h-10 border-customred1 text-customred1 items-center pr-3 pt-1 rounded-lg hover:bg-red-100 transition-colors font-iranyekan">
+                    <img src="./src/Pics/gallery-add.svg" alt="آیکون" class="inline pr-7">
+                    افزودن به گالری</a>
+                </div>
+            </div>
+          <!-- Product Card 2 -->
+          <div id="card2" class="w-[288px] h-[382px] rounded-2xl border-[1px] border-gray-300 shrink-0">
+            <div class="p-2 mt-2 flex justify-center items-center  mx-auto"> 
+            <img src="./src/Pics/hendoneh.png" alt="لایک" class="object-cover rounded-2xl w-[256px] h-[209px]">
+            </div>
+            <div class="flex justify-between items-center p-4   ">
+            <h2 class="text-xl font-bold font-iranyekan">استیکر هندوانه </h2>
+            <img src="./src/Pics/Like.svg" alt="لایک">
+            </div>
+            <h4 class="font-iranyekan text-sm pb-2   pr-4 ">قابل طراحی و چاپ بر روی انواع محصولات</h4>
+            <div class="flex items-center justify-center ">
+            <a href="#" class="border w-[256px] h-10 border-customred1 text-customred1 items-center pr-3 pt-1 rounded-lg hover:bg-red-100 transition-colors font-iranyekan">
+                <img src="./src/Pics/gallery-add.svg" alt="آیکون" class="inline pr-7">
+                افزودن به گالری</a>
+            </div>
+        </div>
+           <!-- Product Card 2 -->
+                <div id="card2" class="w-[288px] h-[382px] rounded-2xl border-[1px] border-gray-300 shrink-0">
+                    <div class="p-2 mt-2 flex justify-center items-center  mx-auto"> 
+                    <img src="./src/Pics/audrey.jfif" alt="لایک" class="object-cover rounded-2xl w-[256px] h-[209px]">
+                    </div>
+                    <div class="flex justify-between items-center p-4   ">
+                    <h2 class="text-xl font-bold font-iranyekan">استیکر دخترونه </h2>
+                    <img src="./src/Pics/Like.svg" alt="لایک">
+                    </div>
+                    <h4 class="font-iranyekan text-sm pb-2   pr-4 ">قابل طراحی و چاپ بر روی انواع محصولات</h4>
+                    <div class="flex items-center justify-center ">
+                    <a href="#" class="border w-[256px] h-10 border-customred1 text-customred1 items-center pr-3 pt-1 rounded-lg hover:bg-red-100 transition-colors font-iranyekan">
+                        <img src="./src/Pics/gallery-add.svg" alt="آیکون" class="inline pr-7">
+                        افزودن به گالری</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+</div>
+</section>
+<!-- Footer -->
+<section class="flex justify-between gap-4 pt-12 w-[1540px]  mx-auto">
+    <footer class="w-[1540px] h-[536px] text-white">
+      <!-- بخش اول: شبکه‌های اجتماعی و ایمیل -->
+      <div class="flex h-[180px] flex-wrap pt-12 gap-100 bg-[#641c23]">
+        <div class="flex flex-wrap flex-col items-center  mr-24">
+          <p class="w-[392px] ml-20 mb-3 text-[13px] ">برای دریافت آخرین اخبار و تخفیف های جدید، ایمیل خود را وارد نمایید</p>
+          <div class="flex mb-4">
+            <input
+              type="email"
+              placeholder="ایمیل شما"
+              class="w-[392px] h-10 px-4 rounded-lg border border-white bg-[#641c23] placeholder-white text-white focus:outline-none"
+            />
+            <button class="bg-customred1 cursor-pointer h-10 px-6 mr-3 rounded-lg hover:bg-[#9C2E2E] transition-colors">ثبت</button>
+          </div>
+        </div>
+       
+        <div class="flex flex-col flex-wrap mr-20">
+          <p class=" text-[13px] ">ما را در شبکه‌های اجتماعی دنبال کنید<br>
+          <div class="flex gap-5 mt-6 mr-4">
+          <a class="cursor-pointer"><img src="./src/Pics/g10.svg" alt="YouTube" class="w-7 h-7  duration-250 hover:opacity-70"></a>
+          <a class="cursor-pointer"><img src="./src/Pics/Vector.svg" alt="Pinterest" class="w-7 h-7 duration-250 hover:opacity-70"></a>
+          <a class="cursor-pointer"><img src="./src/Pics/174-1744532_facebook-icon-link-facebook-white-icon-hd-png-fotor-bg-remover-2023041811029 1.svg" alt="Facebook" class="w-7 h-7 duration-250 hover:opacity-70"></a>
+          <a class="cursor-pointer"><img src="./src/Pics/Instagram svg.svg" alt="Instagram" class="w-7 h-7 duration-250 hover:opacity-70"></a>
+        </div>
+        </div>
+      </div>
+      
+      
+            
+      <!-- بخش دوم: لینک‌ها و اطلاعات -->
+      <div class="flex justify-between h-[356px] bg-customred1 px-24 py-8 pt-20">
+        <!-- ستون اول -->
+        <div class="flex-row">
+          <h3 class="  mb-4 underline underline-offset-8">همراه با کاستومی</h3>
+          <ul class="space-x-1">
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>فروش محصولات</li></a>
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>فرصت همکاری</li></a>
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>تماس با ما</li></a>
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>نقشه سایت</li></a>
+          </ul>
+        </div>
+        <!-- ستون دوم -->
+        <div>
+          <h3 class=" mb-4 underline underline-offset-8">خدمات مشتریان</h3>
+          <ul class="space-x-1">
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>سوالات متداول</li></a>
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>حریم خصوصی</li></a>
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>ثبت شکایت</li></a>
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>ضمانت نامه محصولات</li></a>
+          </ul>
+        </div>
+        <!-- ستون سوم -->
+        <div class="flex-row  gap-4">
+          <h3 class="mb-4  underline underline-offset-8">راهنمای خرید</h3>
+          <ul class="space-x-1">
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs "><li>راهنمای ثبت سفارش</li></a>
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>شیوه‌های پرداخت</li></a>
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>نحوه ارسال سفارش‌ها</li></a>
+            <a href="#" class=" duration-250 hover:opacity-70 text-xs"><li>شرایط بازگرداندن محصول</li></a>
+          </ul>
+        </div>
+        
+        <!-- ستون چهارم: اطلاعات تماس -->
+        <div class="text-center">
+          <h3 class="text-xl mb-10">فروشگاه اینترنتی کاستومی</h3>
+          <div class="flex gap-4 text-[12px]">
+          <p class="inline">تماس با پشتیبانی: 021-34560000</p>
+          <p class="inline">پاسخگویی 24 ساعته، 7 روز هفته</p>
+         </div>
+          <div class="flex gap-4 justify-center mt-20">
+            <img src="./src/Pics/01.svg" alt="Certificate 1" class="w-[54px] h-[64px]">
+            <img src="./src/Pics/02.svg" alt="Certificate 2" class="w-[54px] h-[64px]">
+            <img src="./src/Pics/03 1.svg" alt="Certificate 3" class="w-[54px] h-[64px]">
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+      <p class="w-full absolute -right-120 -top-12 text-[10px] text-center ">تمام حقوق این وبسایت متعلق به فروشگاه آنلاین کاستومی می باشد</p> 
+      </div>
+    </footer>
+  </section>
+  <script type="module" src="./src/counter.js"></script>
